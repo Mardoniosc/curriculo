@@ -29,7 +29,7 @@ body {
   position: relative;
   width: 100%;
   height: 400px;
-  background: linear-gradient(45deg, #219425, #174f69);
+  background: linear-gradient(45deg, #231fbf, #5b1769);
   padding: 50px;
 }
 
@@ -86,7 +86,7 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 0.25em;
   color: #fff;
-  background: #219425;
+  background: #231fbf;
   font-weight: 600;
   padding: 0 15px;
   margin-top: 40px;
@@ -109,11 +109,19 @@ h4 {
 }
 
 .contactInfo li .icon {
-  color: #219425;
+  color: #231fbf;
 }
 
 .contactInfo li .text {
   color: #555;
+}
+
+.contactInfo li span a {
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: none;
 }
 
 .skills {
@@ -149,7 +157,7 @@ h4 {
   position: absolute;
   width: var(--i);
   height: 100%;
-  background: #219425;
+  background: #231fbf;
   border-radius: 2px;
 }
 
@@ -178,7 +186,7 @@ h4 {
 
 .edu_groupBx b {
   font-weight: 600;
-  color: #219425;
+  color: #231fbf;
 }
 
 .edu_groupBx b span {
@@ -214,7 +222,7 @@ h4 {
 
 .hobbies ul li:hover {
   color: #fff;
-  background: #219425;
+  background: #231fbf;
 }
 
 .hobbies ul li i {

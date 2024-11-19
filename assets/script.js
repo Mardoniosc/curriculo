@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     hobby4: document.getElementById("hobby4"),
     hobby5: document.getElementById("hobby5"),
     hobby6: document.getElementById("hobby6"),
+    atualmente: document.getElementById("atualmente"),
   };
 
   // Função para carregar e aplicar o idioma
